@@ -10,4 +10,9 @@ public class testController {
     public boolean health() {
         return true;
     }
+
+    @GetMapping("/api/version")
+    public String version() {
+        return "version 2";
+    }
 }
